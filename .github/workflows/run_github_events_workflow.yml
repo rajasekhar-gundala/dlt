@@ -1,8 +1,4 @@
 name: Run github_events pipeline from github_pipeline.py
-'on':
-  schedule:
-  - cron: '*/30 * * * *'
-  workflow_dispatch: null
 env: {}
 jobs:
   maybe_skip:
